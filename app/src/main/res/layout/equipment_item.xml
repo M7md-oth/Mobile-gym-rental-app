@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#121212"
+    android:layout_margin="8dp">
+
+<TextView
+android:id="@+id/equipmentName"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Equipment Name"
+android:textSize="18sp"
+android:textStyle="bold"
+android:textColor="#FF3B30" />
+
+<TextView
+android:id="@+id/equipmentType"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Type: Dumbbell"
+android:textColor="#CCCCCC" />
+
+<TextView
+android:id="@+id/equipmentWeight"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Weight: 20 kg"
+android:textColor="#CCCCCC" />
+
+<TextView
+android:id="@+id/equipmentPrice"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Price: $00"
+android:textColor="#CCCCCC" />
+
+<TextView
+android:id="@+id/equipmentAvailability"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Available"
+android:textColor="#4CAF50" />
+
+<LinearLayout
+android:id="@+id/quantityLayout"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:gravity="center"
+android:layout_marginTop="8dp">
+
+<Button
+    android:id="@+id/decreaseQtyButton"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:text="−"
+    android:textSize="18sp"
+    android:backgroundTint="#FF3B30"
+    android:textColor="@android:color/white"/>
+
+<TextView
+    android:id="@+id/quantityText"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:gravity="center"
+    android:text="0"
+    android:textSize="16sp"
+    android:textColor="@android:color/white"
+    android:layout_marginHorizontal="8dp"/>
+
+<Button
+    android:id="@+id/increaseQtyButton"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:text="+"
+    android:textSize="18sp"
+    android:backgroundTint="#FF3B30"
+    android:textColor="@android:color/white"/>
+</LinearLayout>
+
+<Button
+android:id="@+id/addToCartButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Add to Cart"
+android:layout_marginTop="8dp"
+android:textColor="@android:color/white"
+android:backgroundTint="#FF3B30" />
+    </LinearLayout>
